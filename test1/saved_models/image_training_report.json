@@ -1,0 +1,21 @@
+{
+  "country_model": "Random Forest",
+  "country_accuracy": 0.9468,
+  "auth_model": "Ensemble (Voting)",
+  "auth_accuracy": 0.9043,
+  "dataset": "US + UK (real/fake images)",
+  "features": "Color histogram + texture + edges + wavelet + quality + GLCM",
+  "countries": {
+    "0": {
+      "code": "USD",
+      "name": "US Dollar",
+      "folder": "US"
+    },
+    "1": {
+      "code": "GBP",
+      "name": "British Pound",
+      "folder": "UK"
+    }
+  },
+  "trained_at": "2026-04-12 16:05:21"
+}
